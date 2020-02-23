@@ -132,7 +132,6 @@ class App extends Component {
         <div className="container">
           <Search
             searchConnections={this.searchConnections}
-            onChange={this.onChange}
             handleFilter={this.handleFilter}
             handleSetStartDate={this.handleSetStartDate}
             startDate={this.state.startDate}
