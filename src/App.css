@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+/* Some simple custom styles */
+.search-box {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-box input,
+.search-box .react-datepicker-wrapper {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-control-borderless {
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
-.App-link {
-  color: #61dafb;
+input.form-control,
+input.form-control:hover,
+input.form-control:focus,
+input.form-control:active {
+  border: 1px solid #ccc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.panel {
+  border: 1px solid #ccc;
+}
+
+.card {
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.card button {
+  width: 100px;
+}
+
+.results-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
